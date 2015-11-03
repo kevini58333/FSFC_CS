@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+
+public class IQ {
+	public static void main(String [] args){
+		int numIQ;
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.print("What is your IQ?");
+		numIQ=sc.nextInt();
+		
+		String testIQ = (numIQ < 50) ? "Invalid. Too small.": "Cool";
+		String testIQ2 = (numIQ > 200) ? "Invalid. Too small.": "Cool";
+		
+		System.out.println("your IQ is: " + testIQ + testIQ2);
+	}
+
+}

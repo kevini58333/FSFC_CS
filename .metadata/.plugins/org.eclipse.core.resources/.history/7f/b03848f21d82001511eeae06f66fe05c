@@ -1,0 +1,12 @@
+
+public class IQ {
+	public static void main(String [] args){
+		
+		int numIQ = 33;
+		String testIQ = (numIQ < 50) ? "Invalid. Too small.": "Cool";
+		String testIQ2 = (numIQ > 200) ? "Invalid. Too small.": "Cool";
+		
+		System.out.println("your IQ is: " + testIQ + testIQ2);
+	}
+
+}
